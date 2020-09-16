@@ -3,6 +3,7 @@
 /* eslint-disable no-console */
 /* eslint-disable no-undef */
 /* eslint-disable strict */
+
 let myQuiz = {
     currentQuestion: 0,
     correctTally: 0,

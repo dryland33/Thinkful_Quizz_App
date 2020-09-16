@@ -1,3 +1,8 @@
+/* eslint-disable indent */
+/* eslint-disable quotes */
+/* eslint-disable no-console */
+/* eslint-disable no-undef */
+/* eslint-disable strict */
 
 var myQuiz = {
     currentQuestion:0,
