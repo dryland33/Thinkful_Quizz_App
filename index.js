@@ -10,23 +10,18 @@ let myQuiz = {
     percent:['10%', '20%', '30%', '40%', '50%', '60%', '70%', '80%', '90%', '100%', ],
     result: ['You\'re correct!', 'You\'re wrong!'],
     images: [
-      "",
-      "",
+      "sun.jpg",
+      "Uranus.jpg",
       "",
       "",
       "",
       ],
     trivia: [
-      "While Spielberg worked on Schindler\'s List in early 1993 in Europe, he found time to edit Jurassic Park during the night. Yes, Spielberg almost had a nervous breakdown, but he got both projects done. Jurassic Park premiered on June 11, 1993 and Schindler\'s List debuted on November 30, 1993.",
-      "Its rival \'Shakespeare in Love\', a period romantic comedy with a literate, witty Tom Stoppard script and sumptuous production values won the award, which many Oscar-watchers still found outrageous.",
+      "Light travels at a speed of 299,792 kilometers per second; 186,287 miles per second. It takes 499.0 seconds for light to travel from the Sun to the Earth, a distance called 1 Astronomical Unit.",
+      "Uranus is the seventh planet from the Sun, orbiting at a distance of 2.88 billion km. But it’s still much closer than Neptune, which averages a distance of 4.5 billion km from the Sun.",
       "Including revenue from the 2012 reissue, Titanic earned a worldwide total of $2,185,372,302. It became the highest-grossing film of all time worldwide in 1998, and remained so for twelve years, until Avatar (2009), also written and directed by Cameron, surpassed it in 2010.",
       "The photo of her is from the film One Million B.C. and was apparently one of the most, if not the most, popular pin up of the 60s. Other posters he used were of Rita Hayworth and Monroe.",
       "In the classic Western movie \"Tombstone\" (1993) Val Kilmer, as Doc Holliday, says to Johnny Ringo, \"I'm your Huckleberry, that's just my game.\"",
-      "In fiction, a MacGuffin is a plot device in the form of some goal, desired object, or other motivator that the protagonist pursues, often with little or no narrative explanation. ",
-      "That line is part of the answer Gibson gives after one nervous Scottish soldier suggests out loud that it might be better to retreat and live to fight another day.",
-      "The song was used in the parent film, Dick Tracy. \"Sooner or Later\" was composed to evoke the theatrical nature and style of the film.",
-      "Based on the The Saffir-Simpson Hurricane Wind Scale, category 5 has sustained winds of 157 mph or higher, which means a catastrophic damage will occur, including a high percentage of destructed framed homes.",
-      "One of the more memorable scenes in \"Forrest Gump\" happens when the title character's shrimping money is invested by his partner, Lt. Dan, in what Forrest describes as \"some kind of fruit company\"."
     ],
     questionList: [
         {
@@ -46,7 +41,7 @@ let myQuiz = {
         },
         {
             question: "What is Jupiter mostly made of?",
-            answers: { a: "Hydrogen", b: "Gas", c: "Atmosphere", d: "Oxygen" },
+            answers: { a: "Water", b: "Gas", c: "M&M's", d: "Rock" },
             correct: "b"
         },
 
