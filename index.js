@@ -30,30 +30,30 @@ let myQuiz = {
     ],
     questionList: [
         {
-            question: "",
-            answers: { a: "", b: "", c: "", d: "" },
-            correct: ""
+            question: "What is the sun mostly made up of?",
+            answers: { a: "uranium", b: "Oxygen", c: "chromium", d: "Hydrogen" },
+            correct: "d"
         },
         {
-            question: "",
-            answers: { a: "", b: "", c: "", d: "" },
-            correct: ""
+            question: "What is seventh planet in order of distance from the sun?",
+            answers: { a: "Uranus", b: "Mars", c: "Jupiter", d: "Earth" },
+            correct: "a"
         },
         {
-            question: "",
-            answers: { a: "", b: "", c: "", d: "" },
-            correct: ""
+            question: "What is Earth's nearest neighbor in space?",
+            answers: { a: "Sun", b: "Jupiter", c: "Moon", d: "mars" },
+            correct: "c"
         },
         {
-            question: "",
-            answers: { a: "", b: "", c: "", d: "" },
-            correct: ""
+            question: "What is Jupiter mostly made of?",
+            answers: { a: "Hydrogen", b: "Gas", c: "Atmosphere", d: "Oxygen" },
+            correct: "b"
         },
 
         {
-            question: "",
-            answers: { a: "", b: "", c: "", d: "" },
-            correct: ""
+            question: "This 'red planet' is named after the greek god of war",
+            answers: { a: "Jupiter", b: "Sun", c: "Venus", d: "Mars" },
+            correct: "d"
         },
     ]
 };
