@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 2%;
+    padding: 0;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    /*border: 1px solid black;*/
+  }
+  
+  body{
+    background-image: url('https://c1.staticflickr.com/6/5554/14221051230_47516fd197_b.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  section{
+    background-color: #F1F3E4;
+    opacity: 0.95;
+    border: 5px solid #A04511;
+    min-width: 500px;
+    max-width: 900px;
+    width: 70%;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5%;
+  }
+  
+  div{
+    margin: 0;
+    padding: 0;
+  }
+  
+  form{
+    display: block;
+    text-align: left;
+  }
+  
+  img{
+    opacity: 1;
+    display: block;
+    margin: auto;
+    width: 60%;
+    height: 400px;
+    border-radius: 10px;
+  }
+  
+  button{
+    display: inline-block;
+    text-align: center;
+    height: 60px;
+    width: 180px;
+    background-color: #666362;
+    border-radius: 10%;
+    color: white;
+    font-size: 25px;
+    transition-duration: 0.3s;
+    outline: none;
+  }
+  
+  .js-hidden{
+    display: none;
+  }
+  
+  .progress{
+    border: 1px solid #E3E1DF;
+    border-radius: 10%;
+    width: 50%;
+    height: 20px;
+    margin: auto;
+  }
+  
+  .correctBar{
+    width: 0;
+    height: 50%;
+    background-color: #4D9449;
+  }
+  
+  .totalBar{
+    width: 0;
+    height: 50%;
+    background-color: #A04511;
+  }
+  
+  button:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  button:active {
+    background-color: white;
+    color: black;
+    box-shadow: 0 10px #666362;
+    transform: translateY(5px);
+  }
+  
+  img:hover{
+    opacity: 0.7;
+    transition-duration: 1s;
+  }
+  
+  
+  
+  
+  
+  
+  
+  

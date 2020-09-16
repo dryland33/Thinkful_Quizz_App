@@ -1,11 +1,94 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Quizz App</title>
 </head>
+
 <body>
-    
+    <h1>Quizz App</h1>>
+    <form>
+        <p id="question" class="quiz-question">
+            Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Reprehenderit nam mollitia minima, provident explicabo
+            quam atque! Assumenda consequuntur quam enim dignissimos excepturi.
+            Animi sequi debitis corporis amet, neque obcaecati hic.
+        </p>
+        <input type="radio" id="ans1" name="answer" value="">
+        <label for="ans1">answer 1</label>
+
+        <input type="radio" id="ans2" name="answer" value="">
+        <label for="ans2">answer 2</label>
+
+        <input type="radio" id="ans3" name="answer" value="">
+        <label for="ans3">answer 3</label>
+
+        <input type="radio" id="ans4" name="answer" value="">
+        <label for="ans4">answer</label>
+    </form>
 </body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>90's Movies Knowledge Check</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed" rel="stylesheet">
+  </head>
+  <body>
+    <section class="intro" role="region">         <!--intro page -->
+      <h1>How well do you know 90's movies?</h1>
+      <img src="https://thumbs.gfycat.com/PolishedFarflungAffenpinscher-max-1mb.gif" alt="Movie reel in GIF form">
+      <button id="begin">Let's begin!</button>
+    </section>
+
+
+    <section class="questionForms js-hidden" role="region"> <!--question form -->
+      <div class="progress">
+        <div class="correctBar"></div>
+        <div class="totalBar"></div>
+      </div>
+      <h3 id="question"></h3>
+      <form action="#">
+        <label class="a"><input type="radio" name="myAnswer" value="a"><span class="a1"></span></label><br>
+        <label class="b"><input type="radio" name="myAnswer" value="b"><span class="b2"></span></label><br>
+        <label class="c"><input type="radio" name="myAnswer" value="c"><span class="c3"></span></label><br>
+        <label class="d"><input type="radio" name="myAnswer" value="d"><span class="d4"></span></label><br>
+        <button id="submit">Submit</button>
+      </form>
+    </section>
+    
+    
+    <section class="resultsPage js-hidden" role="region">    <!--results page -->
+      <div class="progress">
+        <div class="correctBar"></div>
+        <div class="totalBar"></div>
+      </div>
+      <h2 id="resultText"></h2>
+      <img id="picTrivia" alt="Trivia image">
+      <p id="textTrivia"></p>
+      <button class="next">Next Question</button>
+      <button class="goToScore js-hidden">Show my Score</button>
+    </section>
+    
+    
+    <section class="end js-hidden" role="region">      <!--summary page -->
+       <h1 id="score"></h1>
+       <img id="scorepic" alt="Picture of grumpy cat's reaction to your score.">
+       <button id="restart">Restart Quiz</button>
+    </section>
+    
+    
+    <script src="jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
 </html>
+
+
+
