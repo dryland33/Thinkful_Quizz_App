@@ -10,11 +10,11 @@ let myQuiz = {
     percent:['10%', '20%', '30%', '40%', '50%', '60%', '70%', '80%', '90%', '100%', ],
     result: ['You\'re correct!', 'You\'re wrong!'],
     images: [
-      "sun.jpg",
-      "Uranus.jpg",
-      "moon.jpg",
-      "jupiter.jpg",
-      "mars.jpg",
+      "img/sun.jpg",
+      "img/Uranus.jpg",
+      "img/moon.jpg",
+      "img/jupiter.jpg",
+      "img/mars.jpg",
       ],
     trivia: [
       "Light travels at a speed of 299,792 kilometers per second; 186,287 miles per second. It takes 499.0 seconds for light to travel from the Sun to the Earth, a distance called 1 Astronomical Unit.",
@@ -131,13 +131,13 @@ function restOfTheQuestions() {
 function endPage() {
     $('#score').text(`You scored ${myQuiz.correctTally} out of ${myQuiz.questionList.length} questions.`);
     if (myQuiz.correctTally === myQuiz.questionList.length) {
-        $('#scorepic').attr('src', 'lucky.gif');
+        $('#scorepic').attr('src', 'img/lucky.gif');
     }
     else if (myQuiz.correctTally / myQuiz.questionList.length > .50) {
-        $('#scorepic').attr('src', 'soso.gif');
+        $('#scorepic').attr('src', 'img/soso.gif');
     }
     else {
-        $('#scorepic').attr('src', 'facepalm.gif');
+        $('#scorepic').attr('src', 'img/facepalm.gif');
     }
 }
 
@@ -185,7 +185,3 @@ function progressBarTotal() {
     let width2 = ((myQuiz.currentQuestion + 1) / myQuiz.questionList.length) * 100;
     $('.totalBar').css('width', `${width2}%`);
 }
-
-
-
-
