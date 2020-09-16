@@ -136,13 +136,13 @@ function restOfTheQuestions() {
 function endPage() {
     $('#score').text(`You scored ${myQuiz.correctTally} out of ${myQuiz.questionList.length} questions.`);
     if (myQuiz.correctTally === myQuiz.questionList.length) {
-        $('#scorepic').attr('src', 'https://s-media-cache-ak0.pinimg.com/736x/ef/9e/3c/ef9e3c2faf229f595b6a59fb8731e30a--disney-cats-disney-cruiseplan.jpg');
+        $('#scorepic').attr('src', 'lucky.gif');
     }
     else if (myQuiz.correctTally / myQuiz.questionList.length > .50) {
-        $('#scorepic').attr('src', 'https://i.imgflip.com/1jm073.jpg');
+        $('#scorepic').attr('src', 'soso.gif');
     }
     else {
-        $('#scorepic').attr('src', 'https://s-media-cache-ak0.pinimg.com/736x/62/37/0b/62370b0061eb6c4f2b62389c1116982c--grumpy-kitty-grumpy-cat-meme.jpg');
+        $('#scorepic').attr('src', 'facepalm.gif');
     }
 }
 
