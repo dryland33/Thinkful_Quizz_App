@@ -17,7 +17,7 @@
   section{
     background-color: #F1F3E4;
     opacity: 0.95;
-    border: 5px solid #A04511;
+    border: 5px solid #000;
     min-width: 500px;
     max-width: 900px;
     width: 70%;
@@ -80,7 +80,7 @@
   .totalBar{
     width: 0;
     height: 50%;
-    background-color: #A04511;
+    background-color: #000;
   }
   
   button:hover {
