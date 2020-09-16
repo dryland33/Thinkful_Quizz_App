@@ -26,7 +26,7 @@ let myQuiz = {
     questionList: [
         {
             question: "What is the sun mostly made up of?",
-            answers: { a: "uranium", b: "Oxygen", c: "chromium", d: "Hydrogen" },
+            answers: { a: "Uranium", b: "Oxygen", c: "Chromium", d: "Hydrogen" },
             correct: "d"
         },
         {
@@ -36,7 +36,7 @@ let myQuiz = {
         },
         {
             question: "What is Earth's nearest neighbor in space?",
-            answers: { a: "Sun", b: "Jupiter", c: "Moon", d: "mars" },
+            answers: { a: "Sun", b: "Jupiter", c: "Moon", d: "Mars" },
             correct: "c"
         },
         {
@@ -46,7 +46,7 @@ let myQuiz = {
         },
 
         {
-            question: "This 'red planet' is named after the greek god of war",
+            question: "This 'red planet' is named after the Roman god of war.",
             answers: { a: "Jupiter", b: "Sun", c: "Venus", d: "Mars" },
             correct: "d"
         },
@@ -147,7 +147,7 @@ function correctAnswer() {
     progressBarCorrect();
     $('.questionForms').toggleClass('js-hidden');
     $('.resultsPage').toggleClass('js-hidden');
-    $('#resultText').text(myQuiz.result[0]).css('color', 'green');
+    $('#resultText').text(myQuiz.result[0]).css('color', '#00FF33');
     $('#picTrivia').attr('src', myQuiz.images[myQuiz.currentQuestion]);
     $('p#textTrivia').text(myQuiz.trivia[myQuiz.currentQuestion]);
 }
